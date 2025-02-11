@@ -1,0 +1,58 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/home/zx/Desktop/llvmbuild/lib/cmake/llvm/LLVMConfig.cmake",
+			"/home/zx/Desktop/llvmbuild/lib/cmake/mlir/MLIRConfig.cmake",
+			"helloworld/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 370,
+				"parent" : 4
+			}
+		]
+	},
+	"id" : "AArch64TargetParserTableGen::@92dad9443e4dd6d70a7f",
+	"name" : "AArch64TargetParserTableGen",
+	"paths" : 
+	{
+		"build" : "helloworld",
+		"source" : "helloworld"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

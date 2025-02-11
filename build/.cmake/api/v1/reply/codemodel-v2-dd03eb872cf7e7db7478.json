@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "helloworld",
+					"jsonFile" : "directory-helloworld-Debug-d3cd8caebe6a3b0f4a1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "helloworld",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "genir",
+					"jsonFile" : "directory-genir-Debug-0cd991a15f1f0f2aa930.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "genir",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "antlr",
+					"jsonFile" : "directory-antlr-Debug-108d104b2b05a2b77508.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "antlr",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						3
+					],
+					"name" : "llvmstudy",
+					"targetIndexes" : 
+					[
+						4,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "llvmtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "AArch64TargetParserTableGen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-AArch64TargetParserTableGen-Debug-a9f17f9de7d8bb64fda4.json",
+					"name" : "AArch64TargetParserTableGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ARMTargetParserTableGen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-ARMTargetParserTableGen-Debug-b6c4c7a4d0be6ae8c71e.json",
+					"name" : "ARMTargetParserTableGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RISCVTargetParserTableGen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-RISCVTargetParserTableGen-Debug-d79d4d22007be95ebea0.json",
+					"name" : "RISCVTargetParserTableGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "acc_gen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-acc_gen-Debug-3a5436c51ebcc235ea95.json",
+					"name" : "acc_gen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "genir::@2472bac7930057af1fc7",
+					"jsonFile" : "target-genir-Debug-04944965181d57a8fa17.json",
+					"name" : "genir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "intrinsics_gen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-intrinsics_gen-Debug-3c6852033621587f5ae7.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "llvmtest111::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-llvmtest111-Debug-3c94a93b948312da1631.json",
+					"name" : "llvmtest111",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mlir-doc::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-mlir-doc-Debug-162762fa657cc43a5bd6.json",
+					"name" : "mlir-doc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mlir-generic-headers::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-mlir-generic-headers-Debug-964c6afe735d1f4830e9.json",
+					"name" : "mlir-generic-headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mlir-headers::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-mlir-headers-Debug-8612edc46e6841d21fc4.json",
+					"name" : "mlir-headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mlir-tablegen-targets::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-mlir-tablegen-targets-Debug-581a865346e97146d90d.json",
+					"name" : "mlir-tablegen-targets",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mylua::@e7d6054cd7c5d9556a94",
+					"jsonFile" : "target-mylua-Debug-01cb9b539e7f74d80516.json",
+					"name" : "mylua",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "omp_gen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-omp_gen-Debug-6dff8a815cb90de258eb.json",
+					"name" : "omp_gen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vt_gen::@92dad9443e4dd6d70a7f",
+					"jsonFile" : "target-vt_gen-Debug-68ab04c3d9b8d4dd5482.json",
+					"name" : "vt_gen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zx/Desktop/llvm_randyli/build",
+		"source" : "/home/zx/Desktop/llvm_randyli"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

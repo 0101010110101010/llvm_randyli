@@ -1,0 +1,923 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "antlr/mylua"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"Link_directories",
+			"target_link_directories",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"antlr/CMakeLists.txt",
+			"/home/zx/Desktop/llvmbuild/lib/cmake/llvm/HandleLLVMOptions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 137,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1093,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1094,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1095,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/zx/Desktop/llvm_randyli"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/zx/Desktop/llvmbuild/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/zx/Desktop/llvm_randyli/antlr/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/zx/Desktop/llvm_randyli/build/antlr"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/zx/Desktop/antlrbuild/include/antlr4-runtime"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/zx/Desktop/llvm_randyli/antlr/."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "mylua::@e7d6054cd7c5d9556a94",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/home/zx/Desktop/antlrbuild/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib:/home/zx/Desktop/antlrbuild/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIROptLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRExecutionEngine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMLinker.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRCallInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRIR.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPass.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRSideEffectInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRFuncToLLVM.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lantlr4-runtime",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRBytecodeWriter.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRBytecodeOpInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRDebug.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRObservers.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPluginsLib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRIRDL.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRBuiltinToLLVMIRTranslation.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRExecutionEngineUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRLLVMToLLVMIRTranslation.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIROpenMPToLLVMIRTranslation.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIROpenMPDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIROpenACCMPCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRTargetLLVMIRExport.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRDLTIDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRLLVMIRTransforms.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRNVVMDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRTranslateLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRBytecodeReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRAsmParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMOrcJIT.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMExecutionEngine.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMRuntimeDyld.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMWindowsDriver.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMJITLink.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMOrcTargetProcess.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMOrcShared.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMOption.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMX86CodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMAsmPrinter.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMGlobalISel.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMSelectionDAG.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMX86Desc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMMCDisassembler.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMX86Info.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMPasses.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMCoroutines.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMipo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMLinker.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMVectorize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMSandboxIR.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMFrontendOpenMP.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMFrontendOffloading.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMCFGuard.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMCodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMScalarOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMAggressiveInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMTarget.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMCodeGenTypes.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMCGData.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMIRPrinter.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMInstrumentation.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMHipStdPar.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMObjCARCOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRArithToLLVM.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRArithAttrToLLVMConversion.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRControlFlowToLLVM.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRControlFlowDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRArithDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRCastInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRInferIntRangeCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRUBDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRFuncDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRLLVMCommonConversion.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRLLVMDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMBitWriter.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMProfileData.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMSymbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMDebugInfoPDB.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMDebugInfoCodeView.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMDebugInfoMSF.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMDebugInfoBTF.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMDebugInfoDWARF.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMObject.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMAsmParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMBitReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMMCParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMTextAPI.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMBinaryFormat.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMTargetParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMRemarks.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMBitstreamReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRTransforms.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRMemorySlotInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRRuntimeVerifiableOpInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRSubsetOpInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRValueBoundsOpInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRDestinationStyleOpInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRRewrite.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRRewritePDL.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPDLToPDLInterp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPass.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRCallInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRControlFlowInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRDataLayoutInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRInferIntRangeInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRLoopLikeInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPresburger.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRViewLikeInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPDLInterpDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRFunctionInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRPDLDialect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRSideEffectInterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRInferTypeOpInterface.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRIR.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libMLIRSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zx/Desktop/llvmbuild/lib/libLLVMDemangle.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mylua",
+	"nameOnDisk" : "mylua",
+	"paths" : 
+	{
+		"build" : "antlr",
+		"source" : "antlr"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/LuaBaseListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/LuaBaseVisitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/LuaLexer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/LuaListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/LuaParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/LuaVisitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/genir.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "antlr/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/LuaBaseListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/LuaBaseVisitor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/LuaLexer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/LuaListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/LuaParser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/LuaVisitor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "antlr/genir.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

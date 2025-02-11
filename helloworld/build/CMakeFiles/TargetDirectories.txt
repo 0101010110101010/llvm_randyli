@@ -1,0 +1,14 @@
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/intrinsics_gen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/vt_gen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/omp_gen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/acc_gen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/ARMTargetParserTableGen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/AArch64TargetParserTableGen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/mlir-tablegen-targets.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/mlir-headers.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/mlir-generic-headers.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/mlir-doc.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/llvmtest111.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/edit_cache.dir
+/home/zx/Desktop/llvm_randyli/build/CMakeFiles/rebuild_cache.dir

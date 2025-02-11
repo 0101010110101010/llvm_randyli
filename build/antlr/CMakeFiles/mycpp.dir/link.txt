@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/mycpp.dir/LuaBaseListener.cpp.o CMakeFiles/mycpp.dir/LuaBaseVisitor.cpp.o CMakeFiles/mycpp.dir/LuaLexer.cpp.o CMakeFiles/mycpp.dir/LuaListener.cpp.o CMakeFiles/mycpp.dir/LuaParser.cpp.o CMakeFiles/mycpp.dir/LuaVisitor.cpp.o CMakeFiles/mycpp.dir/main.cpp.o -o mycpp 

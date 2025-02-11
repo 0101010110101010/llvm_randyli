@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/helloworld",
+  "command": "/usr/bin/g++ -DGTEST_HAS_RTTI=0 -DLLVM_BUILD_STATIC -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli/helloworld -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/helloworld/include -I/home/zx/Desktop/llvm_randyli/build/helloworld  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g  -fno-exceptions -funwind-tables -fno-rtti -fno-exceptions -funwind-tables -fno-rtti -o CMakeFiles/llvmtest111.dir/main.cpp.o -c /home/zx/Desktop/llvm_randyli/helloworld/main.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/helloworld/main.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/genir",
+  "command": "/usr/bin/g++ -DGTEST_HAS_RTTI=0 -DLLVM_BUILD_STATIC -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/genir/include -I/home/zx/Desktop/llvm_randyli/build/genir  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g  -fno-exceptions -funwind-tables -fno-rtti -fno-exceptions -funwind-tables -fno-rtti -o CMakeFiles/genir.dir/genir.cpp.o -c /home/zx/Desktop/llvm_randyli/genir/genir.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/genir/genir.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/LuaBaseListener.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/LuaBaseListener.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/LuaBaseListener.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/LuaBaseVisitor.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/LuaBaseVisitor.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/LuaBaseVisitor.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/LuaLexer.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/LuaLexer.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/LuaLexer.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/LuaListener.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/LuaListener.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/LuaListener.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/LuaParser.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/LuaParser.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/LuaParser.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/LuaVisitor.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/LuaVisitor.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/LuaVisitor.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/genir.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/genir.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/genir.cpp"
+},
+{
+  "directory": "/home/zx/Desktop/llvm_randyli/build/antlr",
+  "command": "/usr/bin/g++ -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/zx/Desktop/llvm_randyli -I/home/zx/Desktop/llvmbuild/include -I/home/zx/Desktop/llvm_randyli/antlr/include -I/home/zx/Desktop/llvm_randyli/build/antlr -I/home/zx/Desktop/antlrbuild/include/antlr4-runtime -I/home/zx/Desktop/llvm_randyli/antlr/.  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -g -std=gnu++17 -o CMakeFiles/mylua.dir/main.cpp.o -c /home/zx/Desktop/llvm_randyli/antlr/main.cpp",
+  "file": "/home/zx/Desktop/llvm_randyli/antlr/main.cpp"
+}
+]
