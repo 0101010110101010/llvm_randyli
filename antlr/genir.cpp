@@ -13,7 +13,7 @@ namespace luac
     {
         // create int main(){}
         std::vector<llvm::Type *> arg_types; //empty
-        llvm::FunctionType *function_type = llvm::FunctionType::get(llvm::Type::getInt128Ty(*context), arg_types, false);
+        llvm::FunctionType *function_type = llvm::FunctionType::get(llvm::Type::getInt32Ty(*context), arg_types, false);
         llvm::Function *main_function = llvm::Function::Create(function_type, llvm::Function::ExternalLinkage, "main", *module);
 
         llvm::BasicBlock *BB = llvm::BasicBlock::Create(*context, "entry", main_function);
@@ -39,12 +39,14 @@ namespace luac
             std::cout << arg << std::endl;
 
             // 1 create the function
-//            std::vector<llvm::Type *> arg_types = {llvm::Type::getInt8PtrTy(*context)};
+            #if 0
+            std::vector<llvm::Type *> arg_types = {llvm::Type::getInt8PtrTy(*context)};
+            #else
             llvm::Type *int8Type = llvm::Type::getInt8Ty(*context);
             llvm::Type *int8PtrType = llvm::PointerType::get(int8Type, 0);
             std::vector<llvm::Type *> arg_types = {int8PtrType};
+            #endif
 
-            
             llvm::FunctionType *function_type = llvm::FunctionType::get(llvm::Type::getVoidTy(*context), arg_types, false);
             llvm::FunctionCallee print_function = module->getOrInsertFunction("print", function_type);
 
@@ -53,6 +55,7 @@ namespace luac
             std::vector<llvm::Value *> args;
             args.push_back(strPointer);
             builder->CreateCall(print_function, args);
+            std::cout << "test1" << std::endl;
         }
         return LuaBaseVisitor::visitFunctioncall(ctx);
     }

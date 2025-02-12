@@ -3789,7 +3789,13 @@ antlr/CMakeFiles/mylua.dir/main.cpp.o: ../antlr/main.cpp \
   /home/zx/Desktop/llvmbuild/include/llvm/IR/GlobalIFunc.h \
   /home/zx/Desktop/llvmbuild/include/llvm/IR/ProfileSummary.h \
   ../antlr/LuaBaseVisitor.h \
-  ../antlr/LuaVisitor.h
+  ../antlr/LuaVisitor.h \
+  /home/zx/Desktop/llvmbuild/include/llvm/IR/Verifier.h \
+  /home/zx/Desktop/llvmbuild/include/llvm/IR/PassManager.h \
+  /home/zx/Desktop/llvmbuild/include/llvm/ADT/TinyPtrVector.h \
+  /home/zx/Desktop/llvmbuild/include/llvm/IR/Analysis.h \
+  /home/zx/Desktop/llvmbuild/include/llvm/IR/PassManagerInternal.h \
+  /home/zx/Desktop/llvmbuild/include/llvm/Support/TypeName.h
 
 
 ../antlr/main.cpp:
